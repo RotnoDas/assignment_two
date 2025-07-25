@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.noto-serif-font {
+.noto_serif_font {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-.inter-font {
+.inter_font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -17,28 +17,28 @@
     margin: 0;
     padding: 0;
 }
-.cart-icon::before {
+.cart_icon::before {
     content: "🛒";
     font-size: 20px;
     display: inline-block;
     margin-right: 5px;
 }
-.display-flex {
+.display_flex {
     display: flex;
     align-items: center;
 }
-.nav-bar {
+.nav_bar {
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
     padding: 2rem;
 }
-.nav-logo {
+.nav_logo {
     width: auto;
     height: 5rem;
 }
-.nav-items {
+.nav_items {
     list-style: none;
     gap: 3rem;
 }
@@ -53,7 +53,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: last baseline;
 }
-.banner-title {
+.banner_title {
     font-size: 60px;
     font-weight: bold;
 }
@@ -61,19 +61,19 @@ nav ul li a {
     width: 36rem;
     height: 22rem;
 }
-.banner-description {
+.banner_description {
     font-size: 22px;
 }
-.orange-color {
+.orange_color {
     color: rgba(233, 90, 8, 1);
 }
-.light-gray {
+.light_gray {
     color: rgba(0, 0, 0, 0.5);
 }
-.text-center {
+.text_center {
     text-align: center;
 }
-.text-bold {
+.text_bold {
     font-weight: bold;
 }
 .container {
@@ -81,18 +81,18 @@ nav ul li a {
     margin: 0 auto;
     padding: 2rem;
 }
-.card-title {
+.card_title {
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 16px;
 }
-.add-card-button {
+.add_card_button {
     background-color: rgba(233, 90, 8, 1);
     color: white;
     padding: 1.5rem 3.1rem;
     border: none;
 }
-.sample-card {
+.sample_card {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -102,7 +102,7 @@ nav ul li a {
     border-radius: 8px;
     background-color: #fff;
 }
-.sample-card p, .sample-card img {
+.sample_card p, .sample_card img {
     margin: 0;
     padding: 0;
     display: block;
@@ -112,27 +112,27 @@ nav ul li a {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.3rem;
 }
-.plant-lover-container {
+.plant_lover_container {
     height: auto;
 }
-.plant-lover-description {
+.plant_lover_description {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     font-size: 22px;
 }
-.plant-lover {
+.plant_lover {
     display: flex;
     margin-top: 6rem;
     justify-content: space-between;
     gap: 5rem;
     align-items: center;
 }
-.plant-lover-title {
+.plant_lover_title {
     font-weight: bold;
     font-size: 50px;
 }
-.join-section {
+.join_section {
     background-image: url('../images/news-letter-bg.png');
     background-size: cover;
     text-align: center;
@@ -140,25 +140,25 @@ nav ul li a {
     margin-top: 9rem;
     padding: 19rem 12.5rem;
 }
-.join-button {
+.join_button {
     background-color: rgba(233, 90, 8, 1);
     color: white;
     padding: 1.2rem 3.3rem;
     border: none;
 }
-.input-field {
+.input_field {
     padding: 1.1rem 20rem 1.1rem 1rem;
 }
-.newsletter-title {
+.newsletter_title {
     font-weight: bold;
     font-size: 50px;
 }
-.newsletter-form {
+.newsletter_form {
     display: flex;
     gap: 0;
     justify-content: center;
 }
-.plant-image-wrapper {
+.plant_image_wrapper {
     position: relative;
     display: inline-block;
 }
@@ -170,21 +170,21 @@ nav ul li a {
     height: auto;
     z-index: 12;
 }
-.latest-deal-title {
+.latest_deal_title {
     font-weight: bold;
     font-size: 50px;
 }
-.plant-deals {
+.plant_deals {
     justify-content: space-between;
     margin-top: 5rem;
 }
-.bloom-and-ana {
+.bloom_and_ana {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 20px;
 }
-.bloom-plant {
+.bloom_plant {
     background-image: url('../images/deal-bloom.png');
     background-repeat: no-repeat;
     border-radius: 14px;
@@ -197,7 +197,7 @@ nav ul li a {
     color: aliceblue;
     text-decoration: none;
 }
-.ana-plant {
+.ana_plant {
     background-image: url('../images/deal-ana.png');
     background-repeat: no-repeat;
     border-radius: 14px;
@@ -210,7 +210,7 @@ nav ul li a {
     color: aliceblue;
     text-decoration: none;
 }
-.zabo-plant {
+.zabo_plant {
     background-image: url('../images/deal-zabo.png');
     background-repeat: no-repeat;
     border-radius: 14px;
@@ -223,29 +223,29 @@ nav ul li a {
     text-align: center;
     justify-content: center;
 }
-.latest-deal-description {
+.latest_deal_description {
     font-size: 22px;
 }
-.latest-deal a {
+.latest_deal a {
     color: #fff;
 }
-.plant-style1 {
+.plant_style_one {
     font-weight: bold;
     font-size: 40px;
 }
-.plant-style2 {
+.plant_style_two {
     font-weight: bold;
     font-size: 20px;
 }
-.plant-substyle2 {
+.plant_sub_style_two {
     font-weight: 500;
     font-size: 16px;
 }
-.plant-sub-style {
+.plant_sub_style {
     font-weight: 500;
     font-size: 28px;
 }
-.footer-section {
+.footer_section {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -255,18 +255,18 @@ nav ul li a {
     max-width: 1120px;
     max-height: 248px;
 }
-.footer-part1 {
+.footer_part_one {
     max-width: 23rch;
     max-height: 11rem;
 }
-.footer-part2, .footer-part3 {
+.footer_part_two, .footer_part_three {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     row-gap: 1.5rem;
     gap: 1.5;
 }
-.footer-part4 {
+.footer_part_four {
     justify-content: space-between;
     gap: 2rem;
 }
@@ -280,7 +280,7 @@ button:hover {
     .nav-items li:not(:last-child) {
         display: none;
     }
-    .nav-bar {
+    .nav_bar {
         max-width: 100%;
     }
     .banner {
@@ -293,7 +293,7 @@ button:hover {
         margin-bottom: 28px;
         height: auto;
     }
-    .sample-card {
+    .sample_card {
         width: 100%;
         max-width: 11rem;
         height: auto;
@@ -304,13 +304,13 @@ button:hover {
         gap: 1.2rem;
         justify-content: center;
     }
-    .add-card-button {
+    .add_card_button {
         background-color: rgba(233, 90, 8, 1);
         color: white;
         padding: 1rem 3.1rem;
         border: none;
     }
-    .plant-lover {
+    .plant_lover {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -318,7 +318,7 @@ button:hover {
         padding: 0;
         gap: 1rem;
     }
-    .plant-lover-image {
+    .plant_lover_image {
         width: 100%;
         margin-top: 0;
     }
@@ -327,41 +327,41 @@ button:hover {
         margin: 0 0.5rem;
         padding: 0.5rem 0;
     }
-    .join-section {
+    .join_section {
         padding: 6rem 1rem;
         margin-top: 4rem;
     }
-    .newsletter-title {
+    .newsletter_title {
         font-size: 30px;
     }
-    .input-field {
+    .input_field {
         font-size: 0.9rem;
         padding: 0.8rem;
     }
-    .join-button {
+    .join_button {
         padding: 0.8rem 1rem;
         font-size: 0.9rem;
     }
-    .newsletter-form {
+    .newsletter_form {
         max-width: 100%;
         flex-direction: row;
         flex-wrap: nowrap;
         overflow: hidden;
     }
-    .footer-section {
+    .footer_section {
         flex-direction: column;
         justify-items: flex-start;
         align-items: flex-start;
         margin: 2rem 0;
     }
-    .plant-deals {
+    .plant_deals {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
         margin-top: 2rem;
     }
-    .bloom-plant, .ana-plant, .zabo-plant {
+    .bloom_plant, .ana_plant, .zabo_plant {
         width: 22rem;
         height: 12.2rem;
         background-size: cover;
@@ -375,15 +375,15 @@ button:hover {
         color: aliceblue;
         text-decoration: none;
     }
-    .plant-style1, .plant-style2, .plant-substyle2, .plant-sub-style {
+    .plant_style_one, .plant_style_two, .plant_sub_style_two, .plant_sub_style {
         text-align: center;
         width: 100%;
     }
-    .plant-style1 {
+    .plant_style_one {
         font-weight: bold;
         font-size: 20px;
     }
-    .plant-sub-style {
+    .plant_sub_style {
         font-weight: 500;
         font-size: 16px;
     }
